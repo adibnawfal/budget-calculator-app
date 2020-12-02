@@ -1,0 +1,62 @@
+{
+  "expo": {
+    "name": "Budget Calculator",
+    "description": "Calculate your needs here.",
+    "slug": "BudgetCalculatorApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "android": {
+      "userInterfaceStyle": "light",
+      "package": "com.adibnawfal.budgetcalculator",
+      "versionCode": 1
+    },
+    "backgroundColor": "#f6f5f5",
+    "icon": "./src/assets/icon.png",
+    "notification": {
+      "icon": "./src/assets/notification.png",
+      "color": "#00334e",
+      "androidMode": "default"
+    },
+    "androidStatusBar": {
+      "barStyle": "dark-content",
+      "backgroundColor": "#f6f5f5"
+    },
+    "splash": {
+      "image": "./src/assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#f6f5f5"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "userInterfaceStyle": "light",
+      "bundleIdentifier": "com.adibnawfal.budgetcalculator",
+      "buildNumber": "1.0.0"
+    },
+    "web": {
+      "favicon": "./src/assets/favicon.png"
+    },
+    "packagerOpts": {
+      "config": "metro.config.js",
+      "sourceExts": [
+        "expo.ts",
+        "expo.tsx",
+        "expo.js",
+        "expo.jsx",
+        "ts",
+        "tsx",
+        "js",
+        "jsx",
+        "json",
+        "wasm",
+        "svg"
+      ]
+    }
+  }
+}
